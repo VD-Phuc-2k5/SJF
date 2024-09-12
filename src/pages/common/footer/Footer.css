@@ -1,0 +1,35 @@
+footer {
+  filter: drop-shadow(2px 2px 3px rgba(128, 128, 128, 0.466));
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link p {
+  margin: 0 10px;
+}
+
+.nav-link svg {
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #e9e9e9;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgb(21, 193, 255);
+  color: #fff;
+  border: 2px dashed #111;
+}

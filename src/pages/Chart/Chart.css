@@ -1,0 +1,15 @@
+.Chart-wrap {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.Chart-wrap::-webkit-scrollbar {
+  width: 2px;
+}
+
+.Chart-wrap canvas {
+  width: 100%;
+}

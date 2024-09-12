@@ -1,0 +1,130 @@
+.table {
+  height: 100%;
+  padding: 20px 0 0 40px;
+  position: relative;
+}
+
+.wrap-table::-webkit-scrollbar {
+  width: 2px;
+}
+
+.wrap-table {
+  margin: 25px 0 50px 50px;
+  text-align: center;
+  font-size: bold;
+  border: 2px solid #333;
+  height: 550px;
+  border-radius: 20px;
+  overflow-y: auto;
+}
+
+.table_heading .col,
+.table_row .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_heading {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-weight: bolder;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.table_row {
+  border-bottom: 1px solid grey;
+  padding: 3px 0;
+  font-size: 1.2em;
+}
+
+/* input form */
+.inputForm {
+  padding: 30px;
+}
+
+.addForm,
+.activeForm {
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  text-align: center;
+}
+
+.add-btn,
+.calculate-btn {
+  min-width: 220px;
+  margin-top: 20px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: 2px solid #6b6b6b;
+  background-color: lightcoral;
+  max-width: 200px;
+}
+
+.addForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeForm {
+  margin: 40px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.activeForm .col p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.resultForm {
+  margin: 40px;
+  text-align: center;
+  border: 2px solid grey;
+  padding: 20px;
+  border-radius: 10px;
+  text-wrap: nowrap;
+}
+
+.toast {
+  opacity: 1;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+  background: #fff;
+  transform: translateX(calc(100% + 20px));
+  transition: 1s ease-in-out;
+}
+
+.toast.active {
+  transform: translateX(0);
+  animation: fade 1s 2s ease-in-out forwards;
+}
+
+.toast-icon {
+  margin-right: 10px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.table_heading .col-lg-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  height: 600px;
+}
+
+.table::-webkit-scrollbar {
+  width: 1px;
+}
+
+.table .table_content {
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  font-size: 1.3em;
+}

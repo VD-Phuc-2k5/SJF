@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+
+.No_info {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-info-icon {
+  width: 20vw;
+  height: auto;
+  size: 10em;
+}

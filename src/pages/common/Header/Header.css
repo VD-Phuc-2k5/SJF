@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 1px rgb(193, 193, 193));
+  color: #00d0ff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+}
